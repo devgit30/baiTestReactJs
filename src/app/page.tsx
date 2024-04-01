@@ -121,25 +121,25 @@ const Step3 = () => {
 const Priview = () => {
   return (
     <div>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: 5 }}>
         <div>
           <label htmlFor="meal">Meal</label>
         </div>
         <div style={{ fontWeight: '900', marginLeft: 5 }}>{order?.meal || ''}</div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: 5 }}>
         <div>
           <label htmlFor="people">No. of People</label>
         </div>
         <div style={{ fontWeight: '900', marginLeft: 5 }}>{order?.numberPeople || ''}</div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: 5 }}>
         <div>
           <label htmlFor="restaurant">Restaurant</label>
         </div>
         <div style={{ fontWeight: '900', marginLeft: 5 }}>{order?.restaurant || ''}</div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: 5, paddingBottom: 5 }}>
         <div>
           <label htmlFor="Dishes">Dishes</label>
         </div>
